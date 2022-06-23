@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">StatePersonalControlApp</string>
+    <string-array name="employeeList">
+        <item>Абайдуллаев Сайдулла Идаятович</item>
+        <item>Абдрахманов Акимжан Гафурович</item>
+        <item>Абдрахманов Абдрашит Омарович</item>
+        <item>Авакриев Маглан Сайдахметович</item>
+        <item>Агапитов Алексей  Иннокентьевич</item>
+        <item>Азизов Алимжан Киримжанович</item>
+        <item>Акпаров Алимжан Аликович</item>
+        <item>Анапьянов Адил Нурмуханбетович</item>
+        <item>Баратов Юлдаш Тлевалдиевич</item>
+        <item>Барахунов Дильмурат Маметжанович</item>
+    </string-array>
+<!--    <integer-array name="id">-->
+<!--        <item>3042</item>-->
+<!--        <item>3043</item>-->
+<!--        <item></item>-->
+<!--        <item></item>-->
+<!--        <item></item>-->
+<!--        <item></item>-->
+<!--        <item></item>-->
+<!--        <item></item>-->
+<!--        <item></item>-->
+<!--        <item></item>-->
+<!--    </integer-array>-->
 </resources>
