@@ -29,26 +29,28 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
     }
 
     private void setUpEmployee(){
-        String employeeList[] = getResources().getStringArray(R.array.employeeList);
+        String[] employeeList = getResources().getStringArray(R.array.employeeList);
         System.out.println("employeeList length: "+ employeeList.length);
-        int[] idList = getResources().getIntArray(R.array.idList);
+        String[] idList = getResources().getStringArray(R.array.idList);
         System.out.println("id list : "+ idList.length);
-        String reportList[] = getResources().getStringArray(R.array.reportList);
+        String[] reportList = getResources().getStringArray(R.array.reportList);
         System.out.println(reportList.length);
-        int[] lowPressureList = getResources().getIntArray(R.array.lowPressureList);
+        String[] lowPressureList = getResources().getStringArray(R.array.lowPressureList);
         System.out.println(lowPressureList.length);
-        int[] topPressureList =getResources().getIntArray(R.array.topPressureList);
+        String[] topPressureList = getResources().getStringArray(R.array.topPressureList);
         System.out.println(topPressureList.length);
-        int[] pulseList = getResources().getIntArray(R.array.pulseList);
+        String[] pulseList = getResources().getStringArray(R.array.pulseList);
         System.out.println(pulseList.length);
-        String alcoholList[] = getResources().getStringArray(R.array.alcoholList);
+        String[] alcoholList = getResources().getStringArray(R.array.alcoholList);
         System.out.println(alcoholList.length);
         String[] tempature = getResources().getStringArray(R.array.temperatureList);
         System.out.println(tempature.length);
 
         for(int i = 0; i<employeeList.length;i++){
-            employeeLinkedList.add(new Employee(employeeList[i], R.drawable.ic_baseline_account_circle_24, idList[i], lowPressureList[i],
-                    topPressureList[i], pulseList[i], reportList[i], alcoholList[i], Double.parseDouble(tempature[i])));
+            employeeLinkedList.add(new Employee(employeeList[i], R.drawable.ic_baseline_account_circle_24,
+                    Integer.parseInt(idList[i]), Integer.parseInt(lowPressureList[i]),
+                    Integer.parseInt(topPressureList[i]), Integer.parseInt(pulseList[i]),
+                    reportList[i], alcoholList[i], Double.parseDouble(tempature[i])));
         }
     }
 

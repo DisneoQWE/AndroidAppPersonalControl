@@ -13,13 +13,13 @@ public class ItemActivity extends AppCompatActivity {
         setContentView(R.layout.activity_item);
 
         String name = getIntent().getStringExtra("NAME");
-        String id = getIntent().getStringExtra("ID");
-        String lowPressure = getIntent().getStringExtra("LOW_PRESSURE");
-        String topPressure = getIntent().getStringExtra("TOP_PRESSURE");
-        String pulse = getIntent().getStringExtra("PULSE");
+        Integer id = getIntent().getIntExtra("ID", 0);
+        Integer lowPressure = getIntent().getIntExtra("LOW_PRESSURE", 0);
+        Integer topPressure = getIntent().getIntExtra("TOP_PRESSURE", 0);
+        Integer pulse = getIntent().getIntExtra("PULSE", 0);
         String report = getIntent().getStringExtra("REPORT");
         String alcohol = getIntent().getStringExtra("ALCOHOL");
-        String temperature = getIntent().getStringExtra("TEMPERATURE");
+        Double temperature = getIntent().getDoubleExtra("TEMPERATURE", 0);
 
         TextView nameTextView = findViewById(R.id.name);
         TextView idTextView = findViewById(R.id.id);
@@ -31,12 +31,12 @@ public class ItemActivity extends AppCompatActivity {
         TextView temperatureTextView = findViewById(R.id.temperature);
 
         nameTextView.setText(name);
-        idTextView.setText(id);
-        lowPressureTextView.setText(lowPressure);
-        topPressureTextView.setText(topPressure);
-        pulseTextView.setText(pulse);
+        idTextView.setText(id.toString());
+        lowPressureTextView.setText(lowPressure.toString());
+        topPressureTextView.setText(topPressure.toString());
+        pulseTextView.setText(pulse.toString());
         reportTextView.setText(report);
         alcoholTextView.setText(alcohol);
-        temperatureTextView.setText(temperature);
+        temperatureTextView.setText(temperature.toString());
     }
 }
