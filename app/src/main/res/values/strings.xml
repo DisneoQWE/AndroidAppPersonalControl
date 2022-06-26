@@ -4,24 +4,320 @@
         <item>Абайдуллаев Сайдулла Идаятович</item>
         <item>Абдрахманов Акимжан Гафурович</item>
         <item>Абдрахманов Абдрашит Омарович</item>
+        <item>Абрахманов Пасимжан Анваржанович</item>
         <item>Авакриев Маглан Сайдахметович</item>
         <item>Агапитов Алексей  Иннокентьевич</item>
         <item>Азизов Алимжан Киримжанович</item>
+        <item>Азилов Алишер Рахимжанович</item>
         <item>Акпаров Алимжан Аликович</item>
         <item>Анапьянов Адил Нурмуханбетович</item>
         <item>Баратов Юлдаш Тлевалдиевич</item>
         <item>Барахунов Дильмурат Маметжанович</item>
+        <item>Баудинов Шухрат Итахунович</item>
+        <item>Бекишев Ермек Советнурович</item>
+        <item>Боос Сергей Петрович</item>
+        <item>Бурляев Александр Валерьевич</item>
+        <item>Бурхандинов Еламдун Сетиевич</item>
+        <item>Величкин Владимир Владимирович</item>
+        <item>Галибаев Гапи Газизович</item>
+        <item>Даутов Тимур Рустамович</item>
+        <item>Джаббаров Сабиржан Махмутович</item>
+        <item>Ершаев Сухраб Ярусланович</item>
+        <item>Жданков Александр Николаевич</item>
+        <item>Ибрагимов Курванжан Махаметович</item>
+        <item>Иванов Виктор Александрович</item>
+        <item>Идрисов Варис Марксович</item>
+        <item>Ильясов Рамшидин Агиязович</item>
+        <item>Имиров Иминжан Махмутович</item>
+        <item>Иргискин Николай Сергеевич</item>
+        <item>Исраилов Рафаил Каимович</item>
+        <item>Касимов Бахтияр Сулайманович</item>
+        <item>Квасов Василий Иванович</item>
+        <item>Копейкин Александр Анатольевич</item>
+        <item>Корниенко Владимир Николаевич</item>
+        <item>Кузнецов Николай Макарович</item>
+        <item>Курбанов Дильшад Булатович</item>
+        <item>Курбанов Зиявдун Злавдунович</item>
+        <item>Лову Исмар Шабарович</item>
     </string-array>
-<!--    <integer-array name="id">-->
-<!--        <item>3042</item>-->
-<!--        <item>3043</item>-->
-<!--        <item></item>-->
-<!--        <item></item>-->
-<!--        <item></item>-->
-<!--        <item></item>-->
-<!--        <item></item>-->
-<!--        <item></item>-->
-<!--        <item></item>-->
-<!--        <item></item>-->
-<!--    </integer-array>-->
+    <string-array name="idList">
+        <item>3042</item>
+        <item>3043</item>
+        <item>9681</item>
+        <item>0046</item>
+        <item>39</item>
+        <item>29</item>
+        <item>0052</item>
+        <item>9751</item>
+        <item>9660</item>
+        <item>0006</item>
+        <item>3172</item>
+        <item>3161</item>
+        <item>3450</item>
+        <item>3168</item>
+        <item>3133</item>
+        <item>3180</item>
+        <item>3147</item>
+        <item>3191</item>
+        <item>3281</item>
+        <item>3349</item>
+        <item>3330</item>
+        <item>3399</item>
+        <item>3444</item>
+        <item>9687</item>
+        <item>0720</item>
+        <item>3576</item>
+        <item>3559</item>
+        <item>3532</item>
+        <item>3385</item>
+        <item>3565</item>
+        <item>823</item>
+        <item>3597</item>
+        <item>1005</item>
+        <item>796</item>
+        <item>798</item>
+        <item>3656</item>
+        <item>3613</item>
+        <item>3614</item>
+    </string-array>
+    <string-array name="reportList">
+        <item>Не имеется</item>
+        <item>Имеется</item>
+        <item>Не имеется</item>
+        <item>Имеется</item>
+        <item>Имеется</item>
+        <item>Имеется</item>
+        <item>Не имеется</item>
+        <item>Имеется</item>
+        <item>Имеется</item>
+        <item>Не имеется</item>
+        <item>Не имеется</item>
+        <item>Не имеется</item>
+        <item>Не имеется</item>
+        <item>Не имеется</item>
+        <item>Не имеется</item>
+        <item>Имеется</item>
+        <item>Не имеется</item>
+        <item>Не имеется</item>
+        <item>Имеется</item>
+        <item>Имеется</item>
+        <item>Не имеется</item>
+        <item>Имеется</item>
+        <item>Имеется</item>
+        <item>Не имеется</item>
+        <item>Имеется</item>
+        <item>Имеется</item>
+        <item>Имеется</item>
+        <item>Не имеется</item>
+        <item>Имеется</item>
+        <item>Имеется</item>
+        <item>Не имеется</item>
+        <item>Не имеется</item>
+        <item>Имеется</item>
+        <item>Имеется</item>
+        <item>Имеется</item>
+        <item>Имеется</item>
+        <item>Имеется</item>
+        <item>Имеется</item>
+    </string-array>
+    <string-array name="lowPressureList">
+        <item>80</item>
+        <item>0</item>
+        <item>70</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>70</item>
+        <item>0</item>
+        <item>0</item>
+        <item>70</item>
+        <item>70</item>
+        <item>70</item>
+        <item>70</item>
+        <item>70</item>
+        <item>86</item>
+        <item>0</item>
+        <item>70</item>
+        <item>66</item>
+        <item>0</item>
+        <item>70</item>
+        <item>0</item>
+        <item>0</item>
+        <item>90</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>60</item>
+        <item>0</item>
+        <item>0</item>
+        <item>70</item>
+        <item>80</item>
+        <item>70</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="topPressureList">
+        <item>120</item>
+        <item>0</item>
+        <item>120</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>120</item>
+        <item>0</item>
+        <item>0</item>
+        <item>120</item>
+        <item>120</item>
+        <item>120</item>
+        <item>120</item>
+        <item>110</item>
+        <item>130</item>
+        <item>0</item>
+        <item>110</item>
+        <item>115</item>
+        <item>0</item>
+        <item>120</item>
+        <item>0</item>
+        <item>0</item>
+        <item>140</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>100</item>
+        <item>0</item>
+        <item>0</item>
+        <item>120</item>
+        <item>130</item>
+        <item>130</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="pulseList">
+        <item>61</item>
+        <item>0</item>
+        <item>78</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>63</item>
+        <item>0</item>
+        <item>0</item>
+        <item>77</item>
+        <item>62</item>
+        <item>61</item>
+        <item>76</item>
+        <item>61</item>
+        <item>75</item>
+        <item>0</item>
+        <item>60</item>
+        <item>74</item>
+        <item>0</item>
+        <item>73</item>
+        <item>0</item>
+        <item>0</item>
+        <item>69</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>78</item>
+        <item>0</item>
+        <item>0</item>
+        <item>73</item>
+        <item>68</item>
+        <item>72</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="alcoholList">
+        <item>Есть</item>
+        <item>Нет</item>
+        <item>Есть</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Есть</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Есть</item>
+        <item>Есть</item>
+        <item>Есть</item>
+        <item>Есть</item>
+        <item>Есть</item>
+        <item>Есть</item>
+        <item>Нет</item>
+        <item>Есть</item>
+        <item>Есть</item>
+        <item>Нет</item>
+        <item>Есть</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Есть</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Есть</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Есть</item>
+        <item>Есть</item>
+        <item>Есть</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Нет</item>
+    </string-array>
+    <string-array name="temperatureList">
+        <item>36.0</item>
+        <item>0</item>
+        <item>36.1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>36.4</item>
+        <item>0</item>
+        <item>0</item>
+        <item>36.0</item>
+        <item>36.3</item>
+        <item>36.3</item>
+        <item>35.9</item>
+        <item>36.2</item>
+        <item>36.3</item>
+        <item>0</item>
+        <item>36.5</item>
+        <item>36.1</item>
+        <item>0</item>
+        <item>36.0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>36.4</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>36.1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>36.0</item>
+        <item>36.3</item>
+        <item>35.9</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
 </resources>

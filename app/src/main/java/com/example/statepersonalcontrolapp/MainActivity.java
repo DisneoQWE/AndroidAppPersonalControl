@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.statepersonalcontrolapp.adapter.EmployeeAdapter;
@@ -11,7 +12,7 @@ import com.example.statepersonalcontrolapp.model.Employee;
 
 import java.util.LinkedList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements RecyclerViewInterface{
     LinkedList<Employee> employeeLinkedList = new LinkedList<>();
     int[] employeeImages = {R.drawable.ic_baseline_account_circle_24};
 
@@ -22,16 +23,48 @@ public class MainActivity extends AppCompatActivity {
 
         RecyclerView recyclerView = findViewById(R.id.employee_list);
         setUpEmployee();
-        EmployeeAdapter employeeAdapter = new EmployeeAdapter(this, employeeLinkedList);
+        EmployeeAdapter employeeAdapter = new EmployeeAdapter(this, employeeLinkedList, this);
         recyclerView.setAdapter(employeeAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
     private void setUpEmployee(){
         String employeeList[] = getResources().getStringArray(R.array.employeeList);
+        System.out.println("employeeList length: "+ employeeList.length);
+        int[] idList = getResources().getIntArray(R.array.idList);
+        System.out.println("id list : "+ idList.length);
+        String reportList[] = getResources().getStringArray(R.array.reportList);
+        System.out.println(reportList.length);
+        int[] lowPressureList = getResources().getIntArray(R.array.lowPressureList);
+        System.out.println(lowPressureList.length);
+        int[] topPressureList =getResources().getIntArray(R.array.topPressureList);
+        System.out.println(topPressureList.length);
+        int[] pulseList = getResources().getIntArray(R.array.pulseList);
+        System.out.println(pulseList.length);
+        String alcoholList[] = getResources().getStringArray(R.array.alcoholList);
+        System.out.println(alcoholList.length);
+        String[] tempature = getResources().getStringArray(R.array.temperatureList);
+        System.out.println(tempature.length);
 
         for(int i = 0; i<employeeList.length;i++){
-            employeeLinkedList.add(new Employee(employeeList[i], R.drawable.ic_baseline_account_circle_24));
+            employeeLinkedList.add(new Employee(employeeList[i], R.drawable.ic_baseline_account_circle_24, idList[i], lowPressureList[i],
+                    topPressureList[i], pulseList[i], reportList[i], alcoholList[i], Double.parseDouble(tempature[i])));
         }
+    }
+
+    @Override
+    public void onItemClick(int position) {
+        Intent intent  = new Intent(this, ItemActivity.class);
+
+        intent.putExtra("NAME", employeeLinkedList.get(position).getName());
+        intent.putExtra("ID", employeeLinkedList.get(position).getId());
+        intent.putExtra("LOW_PRESSURE", employeeLinkedList.get(position).getLowPressure());
+        intent.putExtra("TOP_PRESSURE", employeeLinkedList.get(position).getTopPressure());
+        intent.putExtra("PULSE", employeeLinkedList.get(position).getPulse());
+        intent.putExtra("REPORT", employeeLinkedList.get(position).getReport());
+        intent.putExtra("ALCOHOL", employeeLinkedList.get(position).getAlcohol());
+        intent.putExtra("TEMPERATURE", employeeLinkedList.get(position).getTemperature());
+
+        startActivity(intent);
     }
 }
