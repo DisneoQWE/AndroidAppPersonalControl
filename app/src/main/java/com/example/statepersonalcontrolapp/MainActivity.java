@@ -6,6 +6,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import com.example.statepersonalcontrolapp.adapter.EmployeeAdapter;
 import com.example.statepersonalcontrolapp.model.Employee;
@@ -15,7 +17,7 @@ import java.util.LinkedList;
 public class MainActivity extends AppCompatActivity implements RecyclerViewInterface{
     LinkedList<Employee> employeeLinkedList = new LinkedList<>();
     int[] employeeImages = {R.drawable.ic_baseline_account_circle_24};
-
+    Button addButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +28,15 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
         EmployeeAdapter employeeAdapter = new EmployeeAdapter(this, employeeLinkedList, this);
         recyclerView.setAdapter(employeeAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        addButton = findViewById(R.id.addButton);
+        addButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, AddItem.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void setUpEmployee(){
