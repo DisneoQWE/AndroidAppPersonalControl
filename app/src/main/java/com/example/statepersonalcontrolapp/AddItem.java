@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class AddItem extends AppCompatActivity {
+    /** todo: Доделать кнопку добавления в список */
     Button okButton, cancelButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

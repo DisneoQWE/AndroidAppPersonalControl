@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
     }
 
     private void setUpEmployee(){
+        /**TODO: Добавить нормальную базу данных по типу Posgres и с помощью JDBC брать оттуда данные*/
         String[] employeeList = getResources().getStringArray(R.array.employeeList);
         System.out.println("employeeList length: "+ employeeList.length);
         String[] idList = getResources().getStringArray(R.array.idList);
