@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">StatePersonalControlApp</string>
+    <string name="app_name">Контроль физиологического состояния персонала</string>
+    <string name="app_add_item">Изменение записи</string>
+    <string name="app_search_item">Поиск сотрудника</string>
+    <string name="app_employee">Профиль сотрудника</string>
     <string-array name="employeeList">
         <item>Абайдуллаев Сайдулла Идаятович</item>
         <item>Абдрахманов Акимжан Гафурович</item>
@@ -81,44 +84,44 @@
         <item>3614</item>
     </string-array>
     <string-array name="reportList">
-        <item>Не имеется</item>
-        <item>Имеется</item>
-        <item>Не имеется</item>
-        <item>Имеется</item>
-        <item>Имеется</item>
-        <item>Имеется</item>
-        <item>Не имеется</item>
-        <item>Имеется</item>
-        <item>Имеется</item>
-        <item>Не имеется</item>
-        <item>Не имеется</item>
-        <item>Не имеется</item>
-        <item>Не имеется</item>
-        <item>Не имеется</item>
-        <item>Не имеется</item>
-        <item>Имеется</item>
-        <item>Не имеется</item>
-        <item>Не имеется</item>
-        <item>Имеется</item>
-        <item>Имеется</item>
-        <item>Не имеется</item>
-        <item>Имеется</item>
-        <item>Имеется</item>
-        <item>Не имеется</item>
-        <item>Имеется</item>
-        <item>Имеется</item>
-        <item>Имеется</item>
-        <item>Не имеется</item>
-        <item>Имеется</item>
-        <item>Имеется</item>
-        <item>Не имеется</item>
-        <item>Не имеется</item>
-        <item>Имеется</item>
-        <item>Имеется</item>
-        <item>Имеется</item>
-        <item>Имеется</item>
-        <item>Имеется</item>
-        <item>Имеется</item>
+        <item>Нет</item>
+        <item>Да</item>
+        <item>Нет</item>
+        <item>Да</item>
+        <item>Да</item>
+        <item>Да</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Да</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Да</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Да</item>
+        <item>Да</item>
+        <item>Нет</item>
+        <item>Да</item>
+        <item>Да</item>
+        <item>Нет</item>
+        <item>Да</item>
+        <item>Да</item>
+        <item>Да</item>
+        <item>Нет</item>
+        <item>Да</item>
+        <item>Да</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Да</item>
+        <item>Да</item>
+        <item>Да</item>
+        <item>Да</item>
+        <item>Да</item>
+        <item>Да</item>
     </string-array>
     <string-array name="lowPressureList">
         <item>80</item>
@@ -241,7 +244,7 @@
         <item>0</item>
     </string-array>
     <string-array name="alcoholList">
-        <item>Есть</item>
+        <item>0.3</item>
         <item>Нет</item>
         <item>Есть</item>
         <item>Нет</item>

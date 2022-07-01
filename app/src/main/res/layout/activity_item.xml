@@ -98,14 +98,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Низкое давление:"
+                android:text="Диастолическое давление:"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView17"
+                app:layout_constraintTop_toBottomOf="@+id/textView7"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
@@ -121,7 +121,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/textView5"
-                app:layout_constraintTop_toBottomOf="@+id/id"
+                app:layout_constraintTop_toBottomOf="@+id/topPressure"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
@@ -130,14 +130,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Высокое давление:"
+                android:text="Систолическое давление:"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:layout_constraintTop_toBottomOf="@+id/textView15"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
@@ -151,9 +151,9 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_bias="0.018"
                 app:layout_constraintStart_toEndOf="@+id/textView7"
-                app:layout_constraintTop_toBottomOf="@+id/lowPressure"
+                app:layout_constraintTop_toBottomOf="@+id/temperature"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
@@ -169,7 +169,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
@@ -185,7 +185,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/textView9"
-                app:layout_constraintTop_toBottomOf="@+id/topPressure"
+                app:layout_constraintTop_toBottomOf="@+id/lowPressure"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
@@ -194,14 +194,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Жалоба:"
+                android:text="Жалобы:"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView9"
+                app:layout_constraintTop_toBottomOf="@+id/textView13"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
@@ -215,9 +215,9 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_bias="0.012"
                 app:layout_constraintStart_toEndOf="@+id/textView11"
-                app:layout_constraintTop_toBottomOf="@+id/pulse"
+                app:layout_constraintTop_toBottomOf="@+id/alcohol"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
@@ -233,7 +233,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView11"
+                app:layout_constraintTop_toBottomOf="@+id/textView9"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
@@ -249,7 +249,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/textView13"
-                app:layout_constraintTop_toBottomOf="@+id/report"
+                app:layout_constraintTop_toBottomOf="@+id/pulse"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
@@ -265,7 +265,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView13"
+                app:layout_constraintTop_toBottomOf="@+id/textView17"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
@@ -281,7 +281,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/textView15"
-                app:layout_constraintTop_toBottomOf="@+id/alcohol"
+                app:layout_constraintTop_toBottomOf="@+id/id"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
@@ -289,7 +289,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="24dp"
                 android:text="ID:"
                 android:textSize="16sp"
                 android:textStyle="bold"
@@ -297,7 +297,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView19"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
@@ -313,7 +313,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/textView17"
-                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView21"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
@@ -321,31 +321,31 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="24dp"
-                android:text="Дата:"
+                android:layout_marginTop="16dp"
+                android:text="Дата записи:"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView15"
+                app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:textStyle="bold"
-                android:textSize="24sp"
                 android:id="@+id/textView21"
                 android:layout_width="130dp"
                 android:layout_height="37dp"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="8dp"
                 android:text="18.04.2022"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/textView19"
-                app:layout_constraintTop_toBottomOf="@+id/temperature"
+                app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

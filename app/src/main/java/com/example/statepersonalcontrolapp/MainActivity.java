@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
     LinkedList<Employee> employeeLinkedList = new LinkedList<>();
     int[] employeeImages = {R.drawable.ic_baseline_account_circle_24};
     Button addButton;
+    Button searchButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +35,14 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, AddItem.class);
+                startActivity(intent);
+            }
+        });
+        searchButton = findViewById(R.id.seachButton);
+        searchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,SearchActivity.class);
                 startActivity(intent);
             }
         });
